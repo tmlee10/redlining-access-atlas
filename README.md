@@ -48,9 +48,22 @@ python3 -m http.server 8000 --directory dist
 ```
 
 Open `http://localhost:8000`. Use a current browser with DecompressionStream support.
-The overview loads first. State data and local streets load on demand, with at most
-three state datasets cached. Title, statistics and selected outline follow the same
-Census area. The original geographic estimates are retained when zooming.
+The overview loads simplified Census shading and all historical archive areas for
+the 19 study states (about 8 MB compressed). Detailed state data and streets load
+on demand, with at most three state datasets cached. Historical-area selection
+shows the overlapping whole Census block groups, with unchanged statistics and
+uncertainty. Use the up button for area → city → state → South/West. Red dots at
+broad scales mark Grade D locations; zoom in for boundaries. Each of the 19 state
+results has an entry below the map. No redlined-portion rate is inferred.
+
+Rebuild connected display derivatives and Census links from the existing snapshot:
+
+```sh
+python3 analysis/build_connected_views.py
+```
+
+Requires Shapely 2.x. See `dist/data/connected-review.json` for overlap rules and
+display simplification. The original detailed files and values are unchanged.
 
 ## Source and review
 
