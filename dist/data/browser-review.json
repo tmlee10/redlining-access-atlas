@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-26",
+  "environment": "Live Chrome desktop browser; representative page and map views",
+  "application_commit": "c620ae3e15072e3bc85d19619397b518d3b8971a",
+  "site": "https://banned-books-evidence-atlas.onrender.com/redlining/",
+  "checks": [
+    {
+      "check": "US coverage view",
+      "result": "passed",
+      "detail": "50 state options; 19 included; 124,362 block groups shown; Alaska and Hawaii included as context."
+    },
+    {
+      "check": "Georgia load",
+      "result": "passed",
+      "detail": "7,446 Census areas and 238 historical archive areas."
+    },
+    {
+      "check": "Pleasant Hill map click",
+      "result": "passed",
+      "detail": "Clicked areas 130210101002 (79.6%) and 130210101003 (56.9%). Map heading, selected Census option and statistics agreed."
+    },
+    {
+      "check": "View reset",
+      "result": "passed",
+      "detail": "Changing to Macon-Bibb County cleared the previous selected Census area."
+    },
+    {
+      "check": "Unincluded state",
+      "result": "passed",
+      "detail": "Alaska displayed geographic context only, with no substituted access estimate."
+    },
+    {
+      "check": "California load",
+      "result": "passed",
+      "detail": "25,607 Census areas and 879 historical archive areas."
+    },
+    {
+      "check": "Historical city and layer toggle",
+      "result": "passed",
+      "detail": "Los Angeles view and A–C checkbox worked."
+    },
+    {
+      "check": "Browser-tab title",
+      "result": "passed",
+      "detail": "Title changed to Census block group 130210101003 | Access Atlas."
+    },
+    {
+      "check": "CSV download preparation",
+      "result": "passed",
+      "detail": "Application reported Georgia CSV prepared."
+    },
+    {
+      "check": "CSV saved by browser",
+      "result": "unverified",
+      "detail": "The browser download monitor timed out despite the application reporting a prepared CSV. No saved file was confirmed."
+    },
+    {
+      "check": "City-scale display after update",
+      "result": "passed",
+      "detail": "Los Angeles verified live with minor streets and dense historical labels withheld until closer zoom; screenshot saved."
+    }
+  ],
+  "changes": [
+    "Draw only visible Census and historical features.",
+    "Show minor streets and historical area labels at closer zoom to keep city access shading legible.",
+    "Synchronize the browser-tab title with the selected map area.",
+    "Show CSV preparation status and keep its download URL available longer."
+  ],
+  "limitations": [
+    "Representative desktop checks, not exhaustive testing of every state or browser.",
+    "Mobile/touch interaction not tested.",
+    "Browser CSV file-save completion remains unverified."
+  ],
+  "statistics_changed": false,
+  "evidence": "docs/access-atlas-browser-review-20260926.jpg"
+}
