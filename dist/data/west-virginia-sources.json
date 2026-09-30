@@ -1,0 +1,80 @@
+{
+  "tl_2024_54_bg.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/BG/tl_2024_54_bg.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 15277630,
+    "sha256": "881628259a8d9d4c0aba213515fd6fcb790669c104a6d33e2c0d2b18d55cf257"
+  },
+  "B28002_replicates.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/replicate_estimates/2024/data/5-year/150/B28002_54.csv.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 1723400,
+    "sha256": "9ccfa7f185833c973fbb1b9bbf0fc1234c552ce4023810cfbc07748655b4809e"
+  },
+  "ACS_variance_documentation.pdf": {
+    "url": "https://www2.census.gov/programs-surveys/acs/replicate_estimates/2024/documentation/5-year/2020-2024_Variance_Replicate_Table_Documentation.pdf",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 367571,
+    "sha256": "15ab1cbec7e2047c91967749041e9e4a70350dac1dcf065c792f434f21b0501d"
+  },
+  "West_Virginia_HOLC.geojson": {
+    "url": "https://services.arcgis.com/ak2bo87wLfUpMrt1/arcgis/rest/services/MappingInequalityRedliningAreas_231211/FeatureServer/0/query?where=state+%3D+%27WV%27&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson&resultRecordCount=2000&orderByFields=ObjectId",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 125173,
+    "sha256": "3be2d0001f4f4096653147588c96b640c7044f07ccd1ab0e4bb5e46287c30221"
+  },
+  "holc_count.json": {
+    "url": "https://services.arcgis.com/ak2bo87wLfUpMrt1/arcgis/rest/services/MappingInequalityRedliningAreas_231211/FeatureServer/0/query?where=state+%3D+%27WV%27&returnCountOnly=true&f=json",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 15,
+    "sha256": "23c5fdae31453427519c727a3de03f000b5e0da7b78d8008413d9e1d3e00ed21"
+  },
+  "B28002_West_Virginia.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 171060,
+    "sha256": "99e7db9514eeb555751a9b60c7fef0f316640814bb13b3d885e8034990f62062",
+    "extraction": "Exact source rows, unchanged table columns",
+    "source_sha256": "12446ff0691b8818f5908cdc398817361772c5b3078c506d0409adc9c841840b",
+    "source_bytes": 58063218
+  },
+  "Benchmarks.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 672,
+    "sha256": "44d9fc155875bfb8f398018c9f5c2ceca5fbf2a1e36a25c9d93256d5e126469b",
+    "extraction": "Exact source rows, unchanged table columns",
+    "source_sha256": "12446ff0691b8818f5908cdc398817361772c5b3078c506d0409adc9c841840b",
+    "source_bytes": 58063218
+  },
+  "tl_2024_54011_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_54011_roads.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 1364717,
+    "sha256": "cb67d5e1b5b32d0ab633b7b2eab86e1f898d022d6fa2dd92e16c48cbae731ca7"
+  },
+  "tl_2024_54039_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_54039_roads.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 6086232,
+    "sha256": "94b1b1b70f77a9ce514d19e4dede120ce5948a1f6de979aa40eae0bdf95f78d2"
+  },
+  "tl_2024_54051_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_54051_roads.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 1425488,
+    "sha256": "479e233997305031b14bdcd853d096798340af9ce85d3bf3df520b4d150552fd"
+  },
+  "tl_2024_54069_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_54069_roads.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 885464,
+    "sha256": "ae4c6b065af04f05ee96e12e78b337e91eb414ac002f0d7a3db5d89375f101ad"
+  },
+  "tl_2024_54099_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_54099_roads.zip",
+    "retrieved_utc": "2026-09-26T03:17:54.170411+00:00",
+    "bytes": 2028104,
+    "sha256": "61bc683f8e4a4b2cdb328e95eb05c36c9f3d1b14532f849e798e5600ede19ab6"
+  }
+}
