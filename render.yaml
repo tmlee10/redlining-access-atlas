@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: redlining-access-atlas
+    runtime: static
+    buildCommand: bash scripts/check-static.sh
+    staticPublishPath: ./dist
+    autoDeployTrigger: commit
