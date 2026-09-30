@@ -1,0 +1,93 @@
+{
+  "tl_2024_13_bg.zip": {
+    "bytes": 24409309,
+    "sha256": "65d59753f3986482e94f393523006b607b1b3eb0101f42cd7800dd9423ffc4e0",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "B28002_Georgia.dat": {
+    "bytes": 781240,
+    "sha256": "4817662ddf935115fe5e8febd35937d920d7b7f67a2abe70832eb08c7fc829c0",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "B28002_replicates.zip": {
+    "bytes": 7210954,
+    "sha256": "e6cedf571f6489af5b9ef590b4f7a04b0eaa0c69f5103aedc0e27a7b423d62ec",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "Georgia_HOLC.geojson": {
+    "bytes": 223079,
+    "sha256": "584ee93e94793cf08c10d086e062f7deddc138724a460e975076caf1be221755",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "holc_count.json": {
+    "bytes": 15,
+    "sha256": "25999c3abc97e3781c74490042ef6ea25ab80f68e6da5e85443346cd65fe5139",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "Macon_reference.csv": {
+    "bytes": 33632,
+    "sha256": "86b1142a50243ad7c734f2e786331428a0399675ab40860a721d9e8c964c50ce",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "Benchmarks.dat": {
+    "bytes": 15140,
+    "sha256": "f0239cb532583f4979f3315a16d81491a80075f3cc5c81a8729b296bd2c70a85",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "Macon_inputs.gpkg": {
+    "bytes": 2850816,
+    "sha256": "6157b7f573db04eb882bbc490b6c15184bfa6ead6de6c9b785a3bc167203d852",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "inherited_Georgia_sources.json": {
+    "bytes": 7669,
+    "sha256": "c60eb0859801b5a3b17c328d750f70f2100ab16578730998d8a6c1ca577ddfa2",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "inherited_Macon_sources.json": {
+    "bytes": 1497,
+    "sha256": "f696c5e48226e35b95caffebb7808286024b5c0dd7ab643f0a7ed9ddde8006ae",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "ACS_variance_documentation.pdf": {
+    "bytes": 367571,
+    "sha256": "15ab1cbec7e2047c91967749041e9e4a70350dac1dcf065c792f434f21b0501d",
+    "origin": "Prior frozen Georgia or connected Macon deliverable"
+  },
+  "tl_2024_13021_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13021_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "be3859c6bc6cabb71709774633bb5530724d8bae7ff535e48638c85484d66a22",
+    "bytes": 931667
+  },
+  "tl_2024_13051_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13051_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "562aef01386adfe31b5af307ea0b257d7a5925f9e340fbc4296c7bb37c55e6a8",
+    "bytes": 1159684
+  },
+  "tl_2024_13089_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13089_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "fe401ed0e313da88ea52f617ceaccf496ea58b1e4e1dd3829c3497f610dca503",
+    "bytes": 2119094
+  },
+  "tl_2024_13121_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13121_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "b0d5517696fdfa96f30c0a23a76aa777771b67a2cea81a5dff5255c815b7322f",
+    "bytes": 3898743
+  },
+  "tl_2024_13215_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13215_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "bd4f5a4221e6a169b9ffbda6c91cb2c167db3a56baeb4e45e011de935e1d5667",
+    "bytes": 845905
+  },
+  "tl_2024_13245_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_13245_roads.zip",
+    "retrieved_utc_date": "2026-09-22",
+    "sha256": "77e9beb7cea33912ee261b3c1d0e1250685155dedb743e74a4bbbbbee27e3d1d",
+    "bytes": 1860497
+  }
+}
