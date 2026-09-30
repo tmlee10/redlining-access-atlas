@@ -16,9 +16,13 @@ connection speed, reliability, affordability or device suitability. Each estimat
 describes a whole Census block group, not only its redlined portion. No causal
 claim is made. Education, crime, hospitals and libraries remain outside this phase.
 
+## Live website
+
+https://redlining-access-atlas.onrender.com/
+
 ## Separate Render deployment
 
-Use the Render account **tmlee6@buffalo.edu** and create a **new Static Site** from
+Use a dedicated Render **Static Site** from
 `tmlee10/redlining-access-atlas`. Do not attach this project to the banned-books
 service. The atlas is served at its own domain root, not a `/redlining/` subfolder.
 
@@ -27,7 +31,12 @@ service. The atlas is served at its own domain root, not a `/redlining/` subfold
 - Publish directory: `dist`
 - Service name: `redlining-access-atlas`
 
-`render.yaml` contains the equivalent Blueprint configuration. No API key, database,
+The live service uses the public Git repository connection. To publish future changes,
+use **Manual Deploy → Deploy latest commit** in this service. Automatic deployment
+is not enabled for this connection.
+
+`render.yaml` also supports deployment through a Blueprint, with manual deployment
+as the default. No API key, database,
 ArcGIS subscription or application server is required. Render supplies independent
 static hosting; bandwidth and other account limits still apply.
 

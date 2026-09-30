@@ -4,4 +4,4 @@ services:
     runtime: static
     buildCommand: bash scripts/check-static.sh
     staticPublishPath: ./dist
-    autoDeployTrigger: commit
+    autoDeployTrigger: off
