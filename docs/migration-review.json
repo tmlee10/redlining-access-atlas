@@ -1,0 +1,372 @@
+{
+  "date": "2026-09-30",
+  "original_assets": 87,
+  "unchanged_assets": 85,
+  "changes": [
+    "dist/data/interaction-review.json",
+    "dist/index.html"
+  ],
+  "data_geography_and_estimates_changed": false,
+  "interaction_checks_passed": true,
+  "target_repository": "tmlee10/redlining-access-atlas",
+  "deployment": "Verified live on a separate Render Static Site",
+  "checks": [
+    {
+      "path": "dist/app.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/alabama-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/alabama-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/alabama.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/alabama.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arizona-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arizona-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arizona.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arizona.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arkansas-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arkansas-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arkansas.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/arkansas.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/browser-review.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/california-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/california-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/california.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/california.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/catalog.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/colorado-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/colorado-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/colorado.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/colorado.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/florida-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/florida-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/florida.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/florida.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/georgia-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/georgia-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/georgia.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/georgia.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/interaction-review.json",
+      "unchanged": false
+    },
+    {
+      "path": "dist/data/kentucky-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/kentucky-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/kentucky.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/kentucky.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/louisiana-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/louisiana-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/louisiana.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/louisiana.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/north-carolina-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/north-carolina-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/north-carolina.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/north-carolina.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oklahoma-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oklahoma-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oklahoma.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oklahoma.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oregon-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oregon-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oregon.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/oregon.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/review.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/south-carolina-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/south-carolina-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/south-carolina.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/south-carolina.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/states.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/tennessee-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/tennessee-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/tennessee.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/tennessee.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/texas-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/texas-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/texas.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/texas.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/utah-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/utah-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/utah.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/utah.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/virginia-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/virginia-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/virginia.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/virginia.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/washington-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/washington-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/washington.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/washington.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/west-virginia-roads.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/west-virginia-sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/west-virginia.csv.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/data/west-virginia.json.gz",
+      "unchanged": true
+    },
+    {
+      "path": "dist/index.html",
+      "unchanged": false
+    },
+    {
+      "path": "dist/methodology.html",
+      "unchanged": true
+    },
+    {
+      "path": "dist/styles.css",
+      "unchanged": true
+    },
+    {
+      "path": "dist/vendor/LICENSE",
+      "unchanged": true
+    },
+    {
+      "path": "dist/vendor/d3.min.js",
+      "unchanged": true
+    }
+  ],
+  "site": "https://redlining-access-atlas.onrender.com/",
+  "render_service_id": "srv-dau87t6k1f9s73ap0khg",
+  "deployed_commit": "d56b0c9b22eb505e7ed95e0d69a9a5435af1aac7",
+  "live_checks": [
+    "US overview: 50 states, 19 with data, 124362 Census block groups",
+    "Georgia: 7446 Census areas, 238 archive areas",
+    "Pleasant Hill: area 130210101003 selected, 56.9%; heading, tab title, dropdown and statistics agree"
+  ],
+  "public_git_auto_deploy": false
+}
