@@ -1,0 +1,123 @@
+{
+  "states": [
+    {
+      "state": "Alabama",
+      "blocks": 3925,
+      "historical_areas": 118,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Arkansas",
+      "blocks": 2294,
+      "historical_areas": 72,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Florida",
+      "blocks": 13388,
+      "historical_areas": 203,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Georgia",
+      "blocks": 7446,
+      "historical_areas": 238,
+      "areas_without_overlap": 5
+    },
+    {
+      "state": "Kentucky",
+      "blocks": 3581,
+      "historical_areas": 136,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Louisiana",
+      "blocks": 4294,
+      "historical_areas": 163,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "North Carolina",
+      "blocks": 7111,
+      "historical_areas": 166,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Oklahoma",
+      "blocks": 3374,
+      "historical_areas": 145,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "South Carolina",
+      "blocks": 3408,
+      "historical_areas": 87,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Tennessee",
+      "blocks": 4562,
+      "historical_areas": 138,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Texas",
+      "blocks": 18638,
+      "historical_areas": 279,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Virginia",
+      "blocks": 5963,
+      "historical_areas": 320,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "West Virginia",
+      "blocks": 1639,
+      "historical_areas": 110,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Arizona",
+      "blocks": 4773,
+      "historical_areas": 26,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "California",
+      "blocks": 25607,
+      "historical_areas": 879,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Colorado",
+      "blocks": 4058,
+      "historical_areas": 119,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Oregon",
+      "blocks": 2970,
+      "historical_areas": 94,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Utah",
+      "blocks": 2020,
+      "historical_areas": 55,
+      "areas_without_overlap": 0
+    },
+    {
+      "state": "Washington",
+      "blocks": 5311,
+      "historical_areas": 166,
+      "areas_without_overlap": 0
+    }
+  ],
+  "blocks": 124362,
+  "historical_areas": 3514,
+  "overview_geometry": "Display-only simplification: .003 degrees Census; .0003 degrees HOLC. Detailed state geometry is unchanged.",
+  "link_method": "Positive-area intersection of the existing state web geometries; boundary-only contact excluded.",
+  "statistical_scope": "Each linked rate and count covers its full Census block group; no HOLC-only rate is inferred."
+}

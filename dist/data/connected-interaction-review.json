@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "scope": "Simulated DOM + native Canvas projection/rendering/hit testing; not live-browser verification",
+  "checks": [
+    "Region views retain all 124362 access polygons and 3514 historical areas",
+    "Historical D13 shows linked Census rows including 56.9%",
+    "Area to city to state to South navigation",
+    "50 states including Alaska and Hawaii",
+    "19 included states",
+    "124362 Census areas",
+    "Pleasant Hill Z2 preserved at 56.9%",
+    "Selection synchronizes title/dropdown/outline/statistics",
+    "View switches clear stale selections",
+    "Real Canvas hit test",
+    "Zero-household areas show no estimate",
+    "Race-safe state loading",
+    "Unincluded state shows no data"
+  ],
+  "california_single_draw_ms": 178
+}
