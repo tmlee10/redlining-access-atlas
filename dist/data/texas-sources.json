@@ -1,0 +1,134 @@
+{
+  "tl_2024_48_bg.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/BG/tl_2024_48_bg.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 50301029,
+    "sha256": "289491f56d9c12d3646656625fd3047ea540047ad2245bc2e3e6b662be124573"
+  },
+  "B28002_replicates.zip": {
+    "url": "https://www2.census.gov/programs-surveys/acs/replicate_estimates/2024/data/5-year/150/B28002_48.csv.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 18238457,
+    "sha256": "9c19aa32a09d39532e87135cf3b20980e2a6cb5e122bb87f7f944dd02e048c2e"
+  },
+  "ACS_variance_documentation.pdf": {
+    "url": "https://www2.census.gov/programs-surveys/acs/replicate_estimates/2024/documentation/5-year/2020-2024_Variance_Replicate_Table_Documentation.pdf",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 367571,
+    "sha256": "15ab1cbec7e2047c91967749041e9e4a70350dac1dcf065c792f434f21b0501d"
+  },
+  "Texas_HOLC.geojson": {
+    "url": "https://services.arcgis.com/ak2bo87wLfUpMrt1/arcgis/rest/services/MappingInequalityRedliningAreas_231211/FeatureServer/0/query?where=state+%3D+%27TX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson&resultRecordCount=2000&orderByFields=ObjectId",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 353633,
+    "sha256": "6d33ac2383832cbe4a7d9991a758e5bacde3c10451ee18a717bf2b753563e4f3"
+  },
+  "holc_count.json": {
+    "url": "https://services.arcgis.com/ak2bo87wLfUpMrt1/arcgis/rest/services/MappingInequalityRedliningAreas_231211/FeatureServer/0/query?where=state+%3D+%27TX%27&returnCountOnly=true&f=json",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 15,
+    "sha256": "945f300f3942eb3ec004ede0073715e46e3586a8e1523fc6dbdd2620cbeb251b"
+  },
+  "B28002_Texas.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 1963031,
+    "sha256": "c49cececd2889aaa76781b1973111961d3d261039f1fb8cdbadcc9f11bca1c8e",
+    "extraction": "Exact source rows, unchanged table columns",
+    "source_sha256": "12446ff0691b8818f5908cdc398817361772c5b3078c506d0409adc9c841840b",
+    "source_bytes": 58063218
+  },
+  "Benchmarks.dat": {
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 695,
+    "sha256": "38db6fdf9d9063f84bf71cd45cbc46fc997fcd74fab4dbec2b2935e17a4bf7c0",
+    "extraction": "Exact source rows, unchanged table columns",
+    "source_sha256": "12446ff0691b8818f5908cdc398817361772c5b3078c506d0409adc9c841840b",
+    "source_bytes": 58063218
+  },
+  "tl_2024_48009_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48009_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 525212,
+    "sha256": "60a1f1d2033fba6aee29a78babc80ed74ad2e9a7decc8a4dc90a3eb23507f47e"
+  },
+  "tl_2024_48029_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48029_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 5523789,
+    "sha256": "33694629498e0b648e7625193512ed523d64cfd8b2aedcdebfb463c14d76bdf5"
+  },
+  "tl_2024_48113_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48113_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 6344397,
+    "sha256": "0b392c431a5500459eb000aedcfa6f8e52568e4544376d1d9a4d48aee9dd8a98"
+  },
+  "tl_2024_48141_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48141_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 2818343,
+    "sha256": "f56bdcd7f6882814de0205007d702c62c5cfbe459c50c470f38c56d2e13b1f50"
+  },
+  "tl_2024_48167_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48167_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 1417314,
+    "sha256": "e12da33c10ee673bd6ba2cd3eb38342d6fd9ed0ae79cf1c198b5a626ac21b3a2"
+  },
+  "tl_2024_48201_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48201_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 11999708,
+    "sha256": "856056d38ca4c4cfd78402f449a61a0dc4296e9f30368adeda62be89e70deddb"
+  },
+  "tl_2024_48245_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48245_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 1178284,
+    "sha256": "9168692229c708080c21112bfb125f282caeea0f4187396ddaaf6ed20c2f080e"
+  },
+  "tl_2024_48309_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48309_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 1206469,
+    "sha256": "8f003efbf0e08ca0639aedfad875f376ed1704c55ad3e99ccd1e5d5ce3a771b2"
+  },
+  "tl_2024_48361_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48361_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 879105,
+    "sha256": "63d79de981c47b33186480331b3112ed603f6a16706706388de2f1fef02bda5d"
+  },
+  "tl_2024_48375_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48375_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 829786,
+    "sha256": "d75227c0e5d826d2cd98def212b67f500dded96b65f05c0c12b7e5fc492b4b38"
+  },
+  "tl_2024_48381_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48381_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 692907,
+    "sha256": "3687e1988251c11a70e0d020e1f69d9e265f29e5fb3238adf7ad26a39047fe88"
+  },
+  "tl_2024_48439_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48439_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 6275954,
+    "sha256": "de210f5574df53df746dee0c9415b49f370d318001a2fdd3e00564fdce11151f"
+  },
+  "tl_2024_48453_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48453_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 3669505,
+    "sha256": "afb2d70b654bd430d0c81093a65171be2b41674c2aa6d95e2839a1fca7e3e7db"
+  },
+  "tl_2024_48485_roads.zip": {
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/ROADS/tl_2024_48485_roads.zip",
+    "retrieved_utc": "2026-09-26T02:32:02.047418+00:00",
+    "bytes": 881233,
+    "sha256": "8d6462db914a6faaa87ccc7076c6b9e67af1c3db85f312a4de0924c3c89fa1a7"
+  }
+}
