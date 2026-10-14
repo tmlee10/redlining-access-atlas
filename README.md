@@ -31,9 +31,9 @@ service. The atlas is served at its own domain root, not a `/redlining/` subfold
 - Publish directory: `dist`
 - Service name: `redlining-access-atlas`
 
-The live service uses the public Git repository connection. To publish future changes,
-use **Manual Deploy → Deploy latest commit** in this service. Automatic deployment
-is not enabled for this connection.
+The live service uses the public Git repository connection. The live service was observed with automatic deployment enabled on 14 October 2026.
+A push to main can therefore publish the change. The Blueprint default below is
+separate from that observed live setting.
 
 `render.yaml` also supports deployment through a Blueprint, with manual deployment
 as the default. No API key, database,
@@ -83,3 +83,21 @@ Original multi-gigabyte GIS packages are not duplicated in this web repository.
 Their hashes remain in `dist/data/review.json`. Native ArcGIS/QGIS runtime validation
 is not claimed. D3 7.9.0 is copyright Mike Bostock and ISC licensed; see
 `dist/vendor/LICENSE`.
+
+## Pleasant Hill protocol integration
+
+The verified path is D13 → Macon-Bibb city → Bibb County → Georgia → included South project states.
+City and county use separate published ACS records; Georgia uses its state record.
+Regional rates divide summed published state internet-household counts by summed
+state household totals. The region is labeled as project coverage, with no aggregate
+uncertainty claimed. No rate is calculated for only the part inside D13.
+
+Pilot query exports use the same six linked IDs and exact thresholds as the map.
+Pilot summaries have explicitly labeled 90% intervals; original state CSV files
+retain their existing 95% intervals. The frozen raw count excerpt is in
+`analysis/protocol-v1/B28002_pilot_source.csv`. Rebuild using
+`python scripts/build-protocol-pilot.py /path/to/ph_recovery` with the retained
+Georgia source package, pyproj, pyshp and shapely.
+
+Run `node analysis/test_redlining.cjs` in the artifact runtime for the simulated
+DOM/native Canvas regression checks. This does not certify browser downloads or touch.

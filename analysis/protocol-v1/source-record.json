@@ -1,0 +1,24 @@
+{
+  "build": "2026-10-14",
+  "period": "2020-2024",
+  "metric": "hh_reported_internet_access_pct_v1",
+  "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+  "source_sha256": "f0239cb532583f4979f3315a16d81491a80075f3cc5c81a8729b296bd2c70a85",
+  "provenance": {
+    "counts_file": "Georgia_Connected/data/raw/Benchmarks.dat",
+    "counts_hash_scope": "Retained selected-geography count file, not the complete national source download",
+    "historical_file": "Georgia_Connected/data/raw/Georgia_HOLC.geojson",
+    "historical_sha256": "584ee93e94793cf08c10d086e062f7deddc138724a460e975076caf1be221755",
+    "pilot_geometry_file": "Pleasant_Hill_Verification/map_data.json",
+    "pilot_geometry_sha256": "8f8c53d38e73b46ae7e5e31097b7edb48aa0d2c9109b942b72778995bc3c7418",
+    "pilot_geometry_input_crs": "EPSG:5070",
+    "city_geometry_file": "dist/data/georgia.json.gz extras.macon_boundary (retained Macon input layer)",
+    "county_geometry_file": "Georgia_Connected/arcgis/data/county_boundaries.shp, COUNTYFP=021",
+    "county_shapefile_sha256": "dc37005404ce0380e2e3ac8934fd61bc64a2cd9a35ab1214478e9ad4a7b636a0",
+    "display_crs": "EPSG:4326"
+  },
+  "limitations": [
+    "Whole Census block groups cross D13; no D13-only household rate.",
+    "Historical georeferencing uncertainty is not quantified."
+  ]
+}
