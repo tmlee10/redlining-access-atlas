@@ -14,9 +14,13 @@ The internet measure uses ACS 2020–2024 table B28002: the percentage of househ
 reporting internet access, with or without a paid subscription. It does not measure
 connection speed, reliability, affordability or device suitability. Each estimate
 describes a whole Census block group, not only its redlined portion. No causal
-claim is made. Education, crime, hospitals and libraries remain outside this phase.
+claim is made. The Macon street map includes additional indicators and local facilities from the supplied release. Education, crime and flood analyses are outside this release.
 
-## Live website
+## DigitalOcean target
+
+Deploy the static atlas at **https://redlining.research3.org/**. See [deployment instructions](DEPLOY.md).
+
+## Existing Render website
 
 https://redlining-access-atlas.onrender.com/
 
@@ -48,11 +52,11 @@ python3 -m http.server 8000 --directory dist
 ```
 
 Open `http://localhost:8000`. Use a current browser with DecompressionStream support.
-The overview loads simplified Census shading and all historical archive areas for
+Open `atlas.html` for the full interactive atlas. The overview loads simplified Census shading and all historical archive areas for
 the 19 study states (about 8 MB compressed). Detailed state data and streets load
 on demand, with at most three state datasets cached. Historical-area selection
 shows the overlapping whole Census block groups, with unchanged statistics and
-uncertainty. Use the up button for area → city → state → South/West. Red dots at
+uncertainty. Use the up button for area → city → state → South/West (with a separate county step on the Pleasant Hill path). Red dots at
 broad scales mark Grade D locations; zoom in for boundaries. Each of the 19 state
 results has an entry below the map. No redlined-portion rate is inferred.
 
