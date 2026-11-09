@@ -16,9 +16,9 @@ connection speed, reliability, affordability or device suitability. Each estimat
 describes a whole Census block group, not only its redlined portion. No causal
 claim is made. The Macon street map includes additional indicators and local facilities from the supplied release. Education, crime and flood analyses are outside this release.
 
-## DigitalOcean target
+## Production on DigitalOcean
 
-Deploy the static atlas at **https://redlining.research3.org/**. See [deployment instructions](DEPLOY.md).
+The static atlas is served at **https://redlining.research3.org/** by its own Nginx site on the shared DigitalOcean Droplet. See [deployment instructions](DEPLOY.md).
 
 ## Existing Render website
 
