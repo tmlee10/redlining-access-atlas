@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://redlining.research3.org/sitemap.xml
